@@ -1,0 +1,214 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{multirow}
+\usepackage[margin=0.9in]{geometry}
+\setmainfont{CharisSIL-R.ttf}
+
+\title{Malean}
+\author{Osswix}
+\date{May 2015}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+
+\pagebreak
+
+\section{Phonology}
+the phonology for Malean, first proposal.
+
+\begin{tabular}{|lr|c|c|c|c|c|}
+\hline
+\multicolumn{2}{|l|}{Consonants} & Bilabial & Coronal & Pallatal & Velar & Glottal \\
+\hline
+\hline
+\multicolumn{2}{|l|}{Nasal} & m & n & ɲ & ŋ &\\
+Stop & voiced & b & d &&&\\
+&unvoiced&p&t&&k&\\
+\multicolumn{2}{|l|}{Fricative} & ɸ & s & ɕ & ɣ & ɦ\\
+\multicolumn{2}{|l|}{Sonorant} & & l & j & w ɥ &\\
+\hline
+\end{tabular}
+
+\begin{tabular}{|l|cc|ccc|}
+\hline
+vowels & \multicolumn{2}{|c|}{normal} & \multicolumn{3}{|c|}{rhotacized}\\
+\hline
+\hline
+& front  & back & front & center & back\\
+\hline
+high& i y & ɯ & i˞ & & \\
+mid& e & o && ɚ & \\
+low-mid& ɛ & ɔ &&&ɔ˞\\
+low& & ɑ &&& ɑ˞\\
+\hline
+\end{tabular}
+
+\begin{tabular}{|l|cc|cc|}
+\hline
+nasalized vowels & \multicolumn{2}{|c|}{normal} & \multicolumn{2}{|c|}{rhotacized}\\
+\hline
+\hline
+& center  & back & center & back\\
+\hline
+mid&ə̃&&ɚ̃&\\
+low-mid&&ɔ̃&&ɔ̃˞\\
+low&&ɑ̃&&ɑ̃˞\\
+\hline
+\end{tabular}
+
+\begin{tabular}{|l|c|}
+\hline
+Tones & tone\\
+\hline
+\hline
+rising& ˨˥ \\
+neutral& ˧ \\
+falling& ˦˩ \\
+\hline
+\end{tabular}
+
+\section{phonotactics}
+A syllable in Malean is somewhat limmited. Every syllable in Malean has a vowel and tone, it can have an initial consonant (any) or combination. it also can have a final consonant, which either is an nasal or sonorant (excluding ɥ) $ (C_{1}C_{2})V^{+T}(F) $ explaination of all terms : $ C_{1} $ the initial consonant, $ C_{2} $ the second consonant, this is limmited to what the first consonant is (list of legal combinations follows), $V^{+T}$ the vowel plus it's tone, $ F $ the final consonant, the final consonant cannot occur after any nasalized or rhotacized vowel.
+
+\pagebreak
+\section{legal initial combinations}
+This is a list of the legal combinations.
+
+first, the nasal + stop combinations :
+
+\begin{tabular}{r|l}
+combination & pronounciation\\
+m + b & mb\\
+m + p & mp\\
+m + d & md\\
+m + t & mt\\
+m + ɣ & mg\\
+m + k & mk\\
+\end{tabular}
+\begin{tabular}{r|l}
+combination & pronounciation\\
+n + b & nb\\
+n + p & np\\
+n + d & nd\\
+n + t & nt\\
+n + ɣ & ŋ\\
+n + k & ŋk\\
+\end{tabular}
+
+\begin{tabular}{r|l}
+combination & pronounciation\\
+ɲ + b & ɲb\\
+ɲ + p & ɲp\\
+ɲ + d & ɲd\\
+ɲ + t & ɲt\\
+ɲ + ɣ & ɲg\\
+ɲ + k & ɲk\\
+\end{tabular}
+\begin{tabular}{r|l}
+combination & pronounciation\\
+ŋ + b & ŋb\\
+ŋ + p & ŋp\\
+ŋ + d & ŋd\\
+ŋ + t & ŋt\\
+ŋ + ɣ & ŋg\\
+ŋ + k & ŋk\\
+\end{tabular}
+
+and now stop plus s or ɕ :
+
+\begin{tabular}{r|l}
+combination & pronounciation\\
+b + s & bz\\
+p + s & ps\\
+d + s & dz\\
+t + s & ts\\
+k + s & ks\\
+\end{tabular}
+\begin{tabular}{r|l}
+combination & pronounciation\\
+b + ɕ & bʑ\\
+p + ɕ & pɕ\\
+d + ɕ & dʑ\\
+t + ɕ & tɕ\\
+k + ɕ & kɕ\\
+\end{tabular}
+
+
+\section{orthography}
+the letters are written as follows :
+
+\begin{tabular}{|c|c|}
+\hline
+\multicolumn{2}{|c|}{consonant}\\
+\hline
+\hline
+IPA & writing \\
+\hline
+m & m \\
+n & n \\
+ɲ & nj \\
+ŋ & ng \\
+b & b \\
+d & d \\
+p & p \\
+k & k \\
+ɸ & f \\
+s & s \\
+ɕ & x \\
+ɣ & g \\
+ɦ & h \\
+l & l \\
+j & y \\
+w & w \\
+ɥ & j \\
+\hline
+\end{tabular}
+\begin{tabular}{|c|ccc|}
+\hline
+\multicolumn{4}{|c|}{Vowels and tones}\\
+\hline
+\hline
+tone : & rising & neutral & falling \\
+\hline
+i&í&i&ì\\
+y&ɯ́&ɯ&ɯ̀\\
+e&é&e&è\\
+ɛ&ɛ́&ɛ&ɛ̀\\
+ɯ&ú&u&ù\\
+o&ó&o&ò\\
+ɔ&ɔ́&ɔ&ɔ̀\\
+ɑ&á&a&à\\
+i˞&ír&ir&ìr\\
+ɚ&ér&er&èr\\
+ɔ˞&ór&or&òr\\
+ɑ˞&ár&ar&àr\\
+ə̃&éj&ej&èj\\
+ɔ̃&ój&oj&òj\\
+ɑ̃&áj&aj&àj\\
+ɚ̃&éjr&ejr&èjr\\
+ɔ̃˞&ójr&ojr&òjr\\
+ɑ̃˞&ájr&ajr&àjr\\
+\hline
+\end{tabular}
+
+\section{grammar layout}
+\subsection{verbs}
+The verbs in malean lay the stress on the mood and aspect. Though not seen as important they also conjugate to tense, person and number, but in most cases this is dropped. 
+The aspects that the malean verbs have are: ''Simple, Enduring/Lasting (continuous), Punctual, Beginning, Ending and repeating''; The moods are: ''Indicative, Narrative$^{1}$ ,Optative, Imperative, Conditional, Interrogative, Assumption and Cause''. 
+$^{1}$The Narrative has it's own set of conjugations and conjugates to tense in a different way. 
+The tenses for the normal verbs are: ''Far-past, Past, Present and Future''; The tenses for the Narrative are: ''Neutral, Resetting, Far before, Before and After''. 
+The verb also can conjugate to the person and number, the numbers it can conjugate to are: ''Singular, Dual, Paucal and Plural, None''; the persons are: ''First , Second and Third''. 
+In the dual, paucal and plural the first person is split up in inclusive and exclusive, this depends in if the person you're speaking to is a part of the group (inclusive) or not (exclusive).
+In the ''none'' person only the second and third person are allowed to be used.
+\subsection{nouns}
+Nouns decline to number, case and definetness. This is mostly done by the article that follows the word. But the word itself (not the particle) also does decline.
+The noun and it's article decline to the following funcitons (cases): ''Obilique(Nominative, Accusative, Vocative), Ownership(genitive), towards(dative), from(ablative), using/out of (instrumental (mostly)) alike (comparative) and with (commitative)''.
+it declines to the same numbers as the verbs, excluding the ''none'', and for definetness it declines to : '' Known (Has been introduced recently), Old but known (Has been talked about in the past) and New (Has not yet been talked about)''.
+\subsection{adjectives}
+The adjectives decline to the noun they're grouped with. They take it's function in a somwhat broad manner (towards \& from are merged, same for alike \& with), and the person.The adjectives have four forms, their Positive (normal) form, their comparative, superlative and ''lacking'' form.
+\end{document}
